@@ -1,0 +1,31 @@
+{
+  "name": "zoned-0-of-clock",
+  "version": "0.0.1",
+  "description": "get 0 o'clock just before a given date in a standard timezone",
+  "main": "index.js",
+  "source": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js | tap-spec",
+    "prepublishOnly": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiechao06/zoned-0-of-clock.git"
+  },
+  "keywords": [],
+  "author": "xiechao06 <xiechao06@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiechao06/zoned-0-of-clock/issues"
+  },
+  "homepage": "https://github.com/xiechao06/zoned-0-of-clock#readme",
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "timezone-support": "^1.8.1"
+  }
+}
